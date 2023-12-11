@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BookShop.Models
 {
-    public class Books : BaseModel
+    public class Author : BaseModel
     {
 
     }

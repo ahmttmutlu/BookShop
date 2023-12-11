@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BookShop.Models
 {
-    internal class Category
+    public class Category : BaseModel
     {
     }
 }
