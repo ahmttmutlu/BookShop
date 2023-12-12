@@ -10,8 +10,9 @@ namespace BookShop.Models
     {
         public int PhoneNumber { get; set; }
         public string Email   { get; set; }
-        public string Location { get; set; }
-        public ICollection<Author> Authors { get; set; }=new List<Author>();
-        public ICollection<Book> Books { get; set; }=new List<Book>();
+        public string Address { get; set; }
+        public ICollection<Author> Authors { get; set; }
+        public ICollection<Book> Books { get; set; }
+
     }
 }

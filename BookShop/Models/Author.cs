@@ -8,6 +8,9 @@ namespace BookShop.Models
 {
     public class Author : BaseModel
     {
-
+        public string Biography { get; set; }
+        public int DateOfBirth { get; set; }
+        public ICollection<Book> Books { get; set;} 
+        public ICollection<Publisher> Publishers { get; set; } 
     }
 }

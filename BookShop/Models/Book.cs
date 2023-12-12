@@ -14,10 +14,9 @@ namespace BookShop.Models
         public bool IsDigital { get; set; }=false;
         public DateTime YearOfPublication { get; set; }
         public string? IMG { get; set; }
-        public ICollection<Publisher> Publisher { get; set; }=new List<Publisher>();
-        public ICollection<Category> Categories { get; set; }= new List<Category>();
-        public ICollection<Author> Authors { get; set; } = new List<Author>();
-        public ICollection<BookType> BookTypes { get; set; } = new List<BookType>();
+        public ICollection<Publisher> Publishers { get; set; }
+        public ICollection<Category> Categories { get; set; }
+        public ICollection<Author> Authors { get; set; }      
         public virtual Shelf Shelf { get; set; }
 
 

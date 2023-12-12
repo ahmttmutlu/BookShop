@@ -9,7 +9,7 @@ namespace BookShop.Models
     public class Shelf : BaseModel
     {
         public int ShelfNumber {  get; set; }
-        public ICollection<Book> Books { get; set; }= new List<Book>();
+        public ICollection<Book> Books { get; set; }
 
     }
 }
